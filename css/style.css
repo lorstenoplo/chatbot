@@ -145,3 +145,33 @@ header {
 
 .chatbot-area .chatarea-inner{float: left;}
 
+@media only screen and (max-width:600px ){
+.user-area img{
+    display: none;
+}
+.chatbot-area img{
+    display: none;
+}
+.chatarea-outer{
+    font-size: 2rem;
+    width: 95%;
+    /* float: left; */
+    position: absolute;
+    left: 0.6rem;
+}
+.main button {
+    background: #ff3b3b;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #666;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    top: 68px;
+}
+}
